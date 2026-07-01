@@ -5,7 +5,7 @@ WORKDIR /src
 
 COPY . .
 
-RUN dotnet restore
+# RUN dotnet restore
 
 RUN dotnet publish -c Release -o /publish
 
