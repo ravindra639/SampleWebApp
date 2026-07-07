@@ -1,9 +1,11 @@
-name: Build Application
+name: Build buil from global workflow Application
 
 on:
+  workflow_dispatch:
+  
   push:
     branches:
-      - main
+      - none
 
 jobs:
   build:
